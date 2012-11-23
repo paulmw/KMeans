@@ -76,21 +76,4 @@ public class UpdateableMeans implements Updateable<Means>{
 		return means.toString();
 	}
 
-	@Override
-	public void setIterationState(int IterationNumber, int BatchNumber) {
-
-	}
-
-	@Override
-	public int getGlobalIterationNumber() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public int getGlobalBatchNumber() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
 }
